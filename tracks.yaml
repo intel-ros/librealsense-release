@@ -1,3 +1,4 @@
+release_repo_url: git@github.com:intel-ros/librealsense-release.git
 tracks:
   kinetic:
     actions:
