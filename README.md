@@ -1,3 +1,26 @@
+## librealsense (kinetic) - 0.9.3-0
+
+The packages in the `librealsense` repository were released into the `kinetic` distro by running `/usr/local/bin/bloom-release --track kinetic --rosdistro kinetic librealsense` on `Tue, 23 Aug 2016 22:01:44 -0000`
+
+The `librealsense` package was released.
+
+Version of package(s) in repository `librealsense`:
+
+- upstream repository: https://github.com/IntelRealSense/librealsense.git
+- release repository: https://github.com/intel-ros/librealsense-release.git
+- rosdistro version: `0.9.2-3`
+- old version: `0.9.2-3`
+- new version: `0.9.3-0`
+
+Versions of tools used:
+
+- bloom version: `0.5.21`
+- catkin_pkg version: `0.2.10`
+- rosdep version: `0.11.4`
+- rosdistro version: `0.4.7`
+- vcstools version: `0.1.38`
+
+
 ## librealsense (indigo) - 0.9.3-0
 
 The packages in the `librealsense` repository were released into the `indigo` distro by running `/usr/local/bin/bloom-release --track indigo --rosdistro indigo librealsense` on `Tue, 23 Aug 2016 21:53:33 -0000`
