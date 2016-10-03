@@ -43,7 +43,7 @@ patch -p1 < $PATCH_A
 patch -p1 < $PATCH_B
 patch -p1 < $PATCH_C
 
-# Apply our RealSense specific patch
+# Apply our RealSense-specific patch
 patch -p1 < ../scripts/realsense-camera-formats.patch
 
 # Prepare to compile modules
