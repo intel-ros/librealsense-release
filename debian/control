@@ -1,0 +1,13 @@
+Source: ros-kinetic-librealsense
+Section: misc
+Priority: extra
+Maintainer: Sergey Dorodnicov <sergey.dorodnicov@intel.com>
+Build-Depends: debhelper (>= 9.0.0), dkms, libssl-dev, libusb-1.0-0-dev, linux-headers-generic, pkg-config, ros-kinetic-catkin
+Homepage: http://www.ros.org/wiki/RealSense
+Standards-Version: 3.9.2
+
+Package: ros-kinetic-librealsense
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, dkms, libssl-dev, libusb-1.0-0-dev, linux-headers-generic
+Description: Library for capturing data from the Intel(R) RealSense(TM) F200, SR300, R200, LR200 and ZR300 cameras.
+ This effort was initiated to better support researchers, creative coders, and app developers in domains such as robotics, virtual reality, and the internet of things. Several often-requested features of RealSense(TM); devices are implemented in this project, including multi-camera capture.
