@@ -37,13 +37,13 @@ tracks:
       -i :{release_inc} --os-name debian --os-not-required
     - git-bloom-generate -y rosrpm --prefix release/:{ros_distro} :{ros_distro} -i
       :{release_inc}
-    devel_branch: null
+    devel_branch: rosdebian
     last_version: 1.11.0
     name: upstream
     patches: null
     release_inc: '1'
     release_repo_url: git@github.com:intel-ros/librealsense-release.git
-    release_tag: v:{version}
+    release_tag: ros:{version}
     ros_distro: kinetic
     vcs_type: git
     vcs_uri: https://github.com/IntelRealSense/librealsense.git
