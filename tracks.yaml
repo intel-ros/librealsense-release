@@ -38,10 +38,11 @@ tracks:
     - git-bloom-generate -y rosrpm --prefix release/:{ros_distro} :{ros_distro} -i
       :{release_inc}
     devel_branch: rosdebian
-    last_version: 1.12.1
+    last_release: ros1.12.2
+    last_version: 1.12.2
     name: upstream
     patches: null
-    release_inc: '0'
+    release_inc: '1'
     release_repo_url: null
     release_tag: ros:{version}
     ros_distro: kinetic
