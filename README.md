@@ -1,3 +1,12 @@
+DISCONTINUATION OF PROJECT
+
+This project will no longer be maintained by Intel.
+
+Intel has ceased development and contributions including, but not limited to, maintenance, bug fixes, new releases, or updates, to this project.  
+
+Intel no longer accepts patches to this project.
+
+If you have an ongoing need to use this project, are interested in independently developing it, or would like to maintain patches for the open source software community, please create your own fork of this project.  
 ## librealsense (kinetic) - 1.12.2-1
 
 The packages in the `librealsense` repository were released into the `kinetic` distro by running `/usr/bin/bloom-release --ros-distro kinetic --track kinetic librealsense --edit` on `Thu, 06 May 2021 10:07:42 -0000`
